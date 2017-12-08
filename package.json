@@ -1,0 +1,30 @@
+{
+  "name": "ice-chest",
+  "version": "0.0.0",
+  "description": "A simple, intelligent caching system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/in-need-of-rename/ice-chest.git"
+  },
+  "keywords": [
+    "cache",
+    "gzip",
+    "lru"
+  ],
+  "author": "Gary Borton <gdborton@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/in-need-of-rename/ice-chest/issues"
+  },
+  "homepage": "https://github.com/in-need-of-rename/ice-chest#readme",
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  }
+}
