@@ -52,7 +52,7 @@ test('iceChest hooks up a beforeExit hook when passing a maxCacheSize', () => {
 });
 
 test('iceChest does not hook up beforeExit call when not maxCacheSize is passed', () => {
-    expect(process.listeners('beforeExit').length).toBe(0);
-    const iceChest = new IceChest({ cacheLocation });
-    expect(process.listeners('beforeExit').length).toBe(0);
+  expect(process.listeners('beforeExit').length).toBe(0);
+  const iceChest = new IceChest({ cacheLocation });
+  expect(process.listeners('beforeExit').length).toBe(0);
 });
